@@ -1,0 +1,23 @@
+[Eagle]
+Version="05 09 00"
+Platform="Linux"
+Serial="6B297D9A5A-LSR-WLM-1CP"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/opt/eagle-5.9.0/lbr/rcl.lbr"
+UsedLibrary="/home/adam/Code/CUSF/svn/badger/badger2/rev1/overo.lbr"
+UsedLibrary="/home/adam/Code/CUSF/svn/badger/badger2/rev1/SparkFun.lbr"
+UsedLibrary="selwx_parts.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="91 94 1274 1100"
+State=2
+Number=0
+
+[Desktop]
+Screen="3200 1200"
+Window="Win_1"

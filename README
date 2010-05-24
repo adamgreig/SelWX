@@ -1,0 +1,12 @@
+SelWX
+
+A weather station in Selwyn College, Cambridge, UK.
+
+Reads weather data from a wind vane, anemometer, rain cup, light sensor,
+relative humidity sensor, light sensor, temperature sensor and barometric
+pressure sensor. Sends this data to a web application over ethernet and
+the internet at large.
+
+By Jon Sowman & Adam Greig
+May 2010
+
