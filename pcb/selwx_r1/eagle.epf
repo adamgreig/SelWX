@@ -11,6 +11,7 @@ UsedLibrary="/opt/eagle-5.9.0/lbr/rcl.lbr"
 UsedLibrary="/home/adam/Code/CUSF/svn/badger/badger2/rev1/overo.lbr"
 UsedLibrary="/home/adam/Code/CUSF/svn/badger/badger2/rev1/SparkFun.lbr"
 UsedLibrary="selwx_parts.lbr"
+UsedLibrary="SparkFun.lbr"
 
 [Win_1]
 Type="Control Panel"
