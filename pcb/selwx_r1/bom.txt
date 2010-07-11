@@ -1,0 +1,85 @@
+Partlist
+
+Exported from selwx_r1.sch at 11/07/2010 18:55
+
+EAGLE Version 5.10.0 Copyright (c) 1988-2010 CadSoft
+
+Part     Value          Device                Package            Library     Sheet
+
+BOOT                    SWITCH-SPSTSMD        AYZ0202            SparkFun    1
+C1       100n           C-EUC0603             C0603              rcl         1
+C2       100n           C-EUC0603             C0603              rcl         1
+C3       100n           C-EUC0603             C0603              rcl         1
+C4       100n           C-EUC0603             C0603              rcl         1
+C5       100n           C-EUC0603             C0603              rcl         1
+C6       10n            C-EUC0603             C0603              rcl         1
+C7       1u             CPOL-EUSMCA           SMC_A              rcl         1
+C8       4u7            CPOL-EUSMCA           SMC_A              rcl         1
+C9       18p            C-EUC0603             C0603              rcl         1
+C10      18p            C-EUC0603             C0603              rcl         1
+C11      100n           C-EUC0603             C0603              rcl         1
+C13      100n           C-EUC0603             C0603              rcl         1
+C14      100n           C-EUC0603             C0603              rcl         1
+C15      100n           C-EUC0603             C0603              rcl         1
+C16      100n           C-EUC0603             C0603              rcl         1
+C17      100n           C-EUC0603             C0603              rcl         1
+C18      100n           C-EUC0603             C0603              rcl         1
+C19      100n           C-EUC0603             C0603              rcl         1
+C20      10u            CPOL-EUSMCA           SMC_A              rcl         1
+C21      100n           C-EUC0603             C0603              rcl         1
+C22      100n           C-EUC0603             C0603              rcl         1
+C23      100n           C-EUC0603             C0603              rcl         1
+C24      100n           C-EUC0603             C0603              rcl         1
+C25      100n           C-EUC0603             C0603              rcl         1
+C26      100n           C-EUC0603             C0603              rcl         1
+C27      100n           C-EUC0603             C0603              rcl         1
+C28      100n           C-EUC0603             C0603              rcl         1
+C29      100n           C-EUC0603             C0603              rcl         1
+C34      1u             C-EUC0603             C0603              rcl         1
+C35      1u             C-EUC0603             C0603              rcl         1
+C36      10n            C-EUC0603             C0603              rcl         1
+C38      1u             C-EUC0603             C0603              rcl         1
+C39      1u             C-EUC0603             C0603              rcl         1
+C40      4u7            CPOL-EUSMCA           SMC_A              rcl         1
+C41      100n           C-EUC0603             C0603              rcl         1
+FTDI                    M06SIP_LOCK           1X06-SIP_LOCK      SparkFun    1
+IC1      STM32F107RXTX  STM32F107RXTX         LQFP64             selwx_parts 1
+IC2      DP83848IVV     DP83848IVV            LQFP48             selwx_parts 1
+IC3      TSL320R        TSL320R               DIL08              selwx_parts 1
+IC5      SHT1XSMD       SHT1XSMD              SHT1X              SparkFun    1
+IC6      BMP085         BMP085                BMP085             SparkFun    1
+J1       POWER_JACKPTH  POWER_JACKPTH         POWER_JACK_PTH     SparkFun    1
+LED1                    LED0603               LED-0603           SparkFun    1
+LED2                    LED0603               LED-0603           SparkFun    1
+PWRSEL   SWITCH-DPDTSMD SWITCH-DPDTSMD        AYZ0202            SparkFun    1
+Q1       25MHz          CRYSTAL5X3            CRYSTAL-SMD-5X3    SparkFun    1
+R1       10k            R-EU_R0603            R0603              rcl         1
+R2       10k            R-EU_R0603            R0603              rcl         1
+R3       1k             R-EU_R0603            R0603              rcl         1
+R4       1k             R-EU_R0603            R0603              rcl         1
+R5       10k            R-EU_R0603            R0603              rcl         1
+R6       1k             R-EU_R0603            R0603              rcl         1
+R7       10k            R-EU_R0603            R0603              rcl         1
+R8       10k            R-EU_R0603            R0603              rcl         1
+R9       49.9           R-EU_R0603            R0603              rcl         1
+R10      49.9           R-EU_R0603            R0603              rcl         1
+R11      49.9           R-EU_R0603            R0603              rcl         1
+R12      49.9           R-EU_R0603            R0603              rcl         1
+R13      1k             R-EU_R0603            R0603              rcl         1
+R14      4.87k 1%       R-EU_R0603            R0603              rcl         1
+R15      10k            R-EU_R0603            R0603              rcl         1
+R16      10k            R-EU_R0603            R0603              rcl         1
+R17      10k            R-EU_R0603            R0603              rcl         1
+R18      2k2            R-EU_R0603            R0603              rcl         1
+R19      2k2            R-EU_R0603            R0603              rcl         1
+R20      10k            R-EU_R0603            R0603              rcl         1
+R21      10k            R-EU_R0603            R0603              rcl         1
+R22      1.5k           R-EU_R0603            R0603              rcl         1
+R23      1k             R-EU_R0603            R0603              rcl         1
+RAIN     RJ11-6PTH      RJ11-6PTH             RJ11-6             SparkFun    1
+RST                     SWITCH-MOMENTARY-2SMD TACTILE_SWITCH_SMD SparkFun    1
+U1       V_REG_LDO      V_REG_MIC2920         SOT223             SparkFun    1
+U2       V_REG_LDOSMD   V_REG_LDOSMD          SOT23-5            SparkFun    1
+UC_PWR                  LED3MM                LED3MM             SparkFun    1
+WIND     RJ11-6PTH      RJ11-6PTH             RJ11-6             SparkFun    1
+X2       MAGJACK        MAGJACK               MAGJACK            SparkFun    1

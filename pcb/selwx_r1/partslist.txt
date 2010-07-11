@@ -1,0 +1,52 @@
+SelWX Bill of Materials
+Revision 1
+
+FARNELL
+
+Capacitors
+23  100nF 0603              1759016 X
+2   18pF 0603               1759056
+5   1uF SMC_A               1457406
+2   4u7 SMC_A               1754083
+2   10u SMC_A               1754086
+
+Resistors
+4   49.9 0603               1612045
+5   1k 0603                 1469740
+1   1k5 0603                1653257
+2   2k2 0603                1469765
+1   4.87k 1% 0603           1353176
+10  10k 0603                1469749
+
+Connectors
+1   6pin  0.1" header       1022254 X
+2   RJ11 jack               1560166 
+1   2.1mm DC power          1217037 X
+
+LEDs
+2   Red LED 0603            1685094
+1   Green LED 3mm           1003375 X
+
+ICs
+1   STM32F107RBT6           1737138
+1   DP83848IVV              1286817
+1   SHT15                   1590512
+1   150mA 3v3 vreg sot23    1578370
+1   300mA 3v3 vreg sot223   1578379
+
+Crystals
+1   25MHz 5x3               1640936
+
+
+SPARKFUN
+
+Connectors
+1   Magjack w/ LEDs         PRT-08534 X
+
+ICs
+1   TSL320R                 SEN-08940 X
+1   BMP085                  COM-09603
+
+Switches
+2   SMT DPDT                COM-00597
+1   SMT momentary           COM-08720
