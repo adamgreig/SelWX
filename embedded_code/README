@@ -1,0 +1,13 @@
+SelWX Embedded Code
+This is the code that runs on the ARM in the weather station.
+
+Build requirements are GCC for arm-none-eabi and libopenstm32;
+the easiest way to obtain both is via summon-arm-toolchain:
+http://github.com/esden/summon-arm-toolchain
+
+Edit it to set LIBOPENSTM32_EN=1 and run, then make sure its resulting
+directory (~/arm-none-eabi by default) is in your PATH.
+
+Build with 'make'; 'make upload' will run stm32loader.py to flash the
+resulting binary onto the STM32 via its serial bootloader.
+
