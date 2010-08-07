@@ -89,6 +89,7 @@ class CommandInterface:
         self.reset()
 
         self.sp.write("\x7F")       # Syncro
+        self.sp.read()
         return self._wait_for_ask("Syncro")
 
     def releaseChip(self):
