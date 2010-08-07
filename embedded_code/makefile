@@ -1,7 +1,7 @@
 # SelWX Makefile
 # Inspired by libopenstm32
 
-BINARY		= blink
+BINARY		= selwx
 
 PREFIX		?= arm-none-eabi
 CC		= $(PREFIX)-gcc
@@ -23,23 +23,23 @@ BAUD		= 115200
 all: images
 
 images: $(BINARY)
-	$(Q)$(OBJCOPY) -Obinary $(BINARY) $(BINARY).bin
-	$(Q)$(OBJDUMP) -S $(BINARY) > $(BINARY).list
+	$(OBJCOPY) -Obinary $(BINARY) $(BINARY).bin
+	$(OBJDUMP) -S $(BINARY) > $(BINARY).list
 
 $(BINARY): $(OBJS) $(LDSCRIPT)
-	$(Q)$(LD) $(LDFLAGS) -o $(BINARY) $(OBJS) -lopenstm32
+	$(LD) $(LDFLAGS) -o $(BINARY) $(OBJS) -lopenstm32
 
 %.o: %.c Makefile
-	$(Q)$(CC) $(CFLAGS) -o $@ -c $<
+	$(CC) $(CFLAGS) -o $@ -c $<
 
 upload: images
-	$(STM32LOADER) -p $(POST) -b $(BAUD) -e -v -w $(BINARY).bin
+	$(STM32LOADER) -p $(PORT) -b $(BAUD) -e -v -w $(BINARY).bin
 
 clean:
-	$(Q)rm -f *.o
-	$(Q)rm -f $(BINARY)
-	$(Q)rm -f $(BINARY).bin
-	$(Q)rm -f $(BINARY).list
+	rm -f *.o
+	rm -f $(BINARY)
+	rm -f $(BINARY).bin
+	rm -f $(BINARY).list
 
 .PHONY: images clean upload
 
