@@ -1,4 +1,3 @@
- * Drill holes in top corners for mounting
+ * Drill holes in top corners and bottom for standoffs
  * FTDI header could be moved left to fit r/a pins
- * Some form of top mounted power switch could be nice
-
+ * Some form of top mounted power switch
